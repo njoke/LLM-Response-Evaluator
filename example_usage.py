@@ -1,6 +1,5 @@
 """
 Example Usage: LLM Response Evaluator for Educational Content
-Demonstrates practical applications for quality assurance of AI-generated educational responses
 """
 
 from llm_response_evaluator import EducationalResponseEvaluator
