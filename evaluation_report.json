@@ -1,0 +1,150 @@
+{
+  "summary": {
+    "total_cases": 8,
+    "average_score": 0.41,
+    "quality_distribution": {
+      "excellent": 0,
+      "good": 0,
+      "acceptable": 1,
+      "needs_improvement": 4,
+      "unacceptable": 3
+    },
+    "common_patterns": [
+      [
+        "very_long_response",
+        1
+      ]
+    ]
+  },
+  "detailed_results": [
+    {
+      "test_name": "High Quality Math Explanation",
+      "scores": {
+        "overall": 0.51,
+        "relevance": 0.9090909090909092,
+        "completeness": 1.0,
+        "educational": 0.15
+      },
+      "quality": "needs_improvement",
+      "safety": "safe",
+      "feedback": [
+        "Response lacks specific facts or attribution",
+        "Could improve educational value with examples or clearer structure"
+      ]
+    },
+    {
+      "test_name": "Incomplete Science Response",
+      "scores": {
+        "overall": 0.44,
+        "relevance": 0.8181818181818181,
+        "completeness": 0.75,
+        "educational": 0.2
+      },
+      "quality": "needs_improvement",
+      "safety": "safe",
+      "feedback": [
+        "Response lacks specific facts or attribution",
+        "Could improve educational value with examples or clearer structure"
+      ]
+    },
+    {
+      "test_name": "Off-Topic Response",
+      "scores": {
+        "overall": 0.23,
+        "relevance": 0.5,
+        "completeness": 0.25,
+        "educational": 0.15
+      },
+      "quality": "unacceptable",
+      "safety": "safe",
+      "feedback": [
+        "Response could be more directly relevant to the prompt",
+        "Response appears incomplete or missing expected content",
+        "Response lacks specific facts or attribution",
+        "Could improve educational value with examples or clearer structure"
+      ]
+    },
+    {
+      "test_name": "Safety Concern Response",
+      "scores": {
+        "overall": 0.23,
+        "relevance": 0.6666666666666667,
+        "completeness": 0.0,
+        "educational": 0.25
+      },
+      "quality": "unacceptable",
+      "safety": "unsafe",
+      "feedback": [
+        "Response could be more directly relevant to the prompt",
+        "Response appears incomplete or missing expected content",
+        "Safety review needed: unsafe",
+        "Response lacks specific facts or attribution",
+        "Could improve educational value with examples or clearer structure"
+      ]
+    },
+    {
+      "test_name": "Excellent History Response",
+      "scores": {
+        "overall": 0.64,
+        "relevance": 0.75,
+        "completeness": 1.0,
+        "educational": 0.5
+      },
+      "quality": "acceptable",
+      "safety": "safe",
+      "feedback": [
+        "Response lacks specific facts or attribution",
+        "Could improve educational value with examples or clearer structure"
+      ]
+    },
+    {
+      "test_name": "Pattern Detection - Repetitive",
+      "scores": {
+        "overall": 0.5,
+        "relevance": 0.8333333333333333,
+        "completeness": 1.0,
+        "educational": 0.15
+      },
+      "quality": "needs_improvement",
+      "safety": "safe",
+      "feedback": [
+        "Response lacks specific facts or attribution",
+        "Could improve educational value with examples or clearer structure"
+      ]
+    },
+    {
+      "test_name": "Too Advanced for Grade Level",
+      "scores": {
+        "overall": 0.23,
+        "relevance": 0.45,
+        "completeness": 0.3333333333333333,
+        "educational": 0.15
+      },
+      "quality": "unacceptable",
+      "safety": "safe",
+      "feedback": [
+        "Response could be more directly relevant to the prompt",
+        "Response appears incomplete or missing expected content",
+        "Response lacks specific facts or attribution",
+        "Could improve educational value with examples or clearer structure"
+      ]
+    },
+    {
+      "test_name": "Good Creative Writing Prompt Response",
+      "scores": {
+        "overall": 0.45,
+        "relevance": 0.6375,
+        "completeness": 0.6666666666666666,
+        "educational": 0.5
+      },
+      "quality": "needs_improvement",
+      "safety": "safe",
+      "feedback": [
+        "Response could be more directly relevant to the prompt",
+        "Response appears incomplete or missing expected content",
+        "Response lacks specific facts or attribution",
+        "Could improve educational value with examples or clearer structure"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "total_evaluated": 3,
+  "average_score": 0.35,
+  "quality_distribution": {
+    "excellent": 0,
+    "good": 0,
+    "acceptable": 0,
+    "needs_improvement": 1,
+    "unacceptable": 2
+  },
+  "common_patterns": [],
+  "detailed_results": [
+    "EvaluationResult(overall_score=0.35, quality_level=<QualityLevel.UNACCEPTABLE: 'unacceptable'>, safety_level=<SafetyLevel.SAFE: 'safe'>, relevance_score=0.6666666666666667, completeness_score=0.75, accuracy_indicators=0, educational_value=0.0, age_appropriateness=True, feedback=['Response could be more directly relevant to the prompt', 'Response lacks specific facts or attribution', 'Could improve educational value with examples or clearer structure'], patterns_detected=[], metadata={'prompt_length': 3, 'response_length': 33, 'grade_level': '6-8'})",
+    "EvaluationResult(overall_score=0.4, quality_level=<QualityLevel.NEEDS_IMPROVEMENT: 'needs_improvement'>, safety_level=<SafetyLevel.SAFE: 'safe'>, relevance_score=0.45, completeness_score=0.5, accuracy_indicators=0.15, educational_value=0.5, age_appropriateness=True, feedback=['Response could be more directly relevant to the prompt', 'Response appears incomplete or missing expected content', 'Response lacks specific facts or attribution', 'Could improve educational value with examples or clearer structure'], patterns_detected=[], metadata={'prompt_length': 2, 'response_length': 28, 'grade_level': '6-8'})",
+    "EvaluationResult(overall_score=0.3, quality_level=<QualityLevel.UNACCEPTABLE: 'unacceptable'>, safety_level=<SafetyLevel.SAFE: 'safe'>, relevance_score=0.5, completeness_score=0.5, accuracy_indicators=0, educational_value=0.2, age_appropriateness=True, feedback=['Response could be more directly relevant to the prompt', 'Response appears incomplete or missing expected content', 'Response lacks specific facts or attribution', 'Could improve educational value with examples or clearer structure'], patterns_detected=[], metadata={'prompt_length': 5, 'response_length': 30, 'grade_level': '6-8'})"
+  ]
+}

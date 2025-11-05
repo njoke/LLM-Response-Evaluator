@@ -1,0 +1,31 @@
+# LLM Response Evaluator Requirements
+# Python 3.8+
+
+# Core dependencies (all built-in for maximum compatibility)
+# No external dependencies required - uses only Python standard library
+
+# Optional dependencies for enhanced features
+# Uncomment if you want additional functionality:
+
+# For advanced NLP analysis
+# textstat==0.7.3  # Readability metrics
+# language-tool-python==2.7.1  # Grammar checking
+
+# For data visualization
+# matplotlib==3.7.1  # Plotting evaluation trends
+# seaborn==0.12.2  # Statistical visualizations
+
+# For enhanced reporting
+# pandas==2.0.3  # Data manipulation
+# openpyxl==3.1.2  # Excel export support
+
+# For web API integration
+# fastapi==0.100.0  # API framework
+# uvicorn==0.23.1  # ASGI server
+
+# For testing
+# pytest==7.4.0  # Testing framework
+# pytest-cov==4.1.0  # Coverage reports
+
+# Note: The core evaluator is designed to work without any external dependencies
+# This ensures maximum portability and ease of deployment in educational environments
