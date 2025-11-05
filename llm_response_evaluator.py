@@ -1,7 +1,7 @@
 """
 LLM Response Evaluator for Educational Content
 A comprehensive framework for evaluating AI-generated educational responses
-Author: [Your Name]
+Author: Dane W, Ken N
 """
 
 import re
